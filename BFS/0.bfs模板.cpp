@@ -6,7 +6,7 @@
 using namespace std;
 // 定义方向数组：上下左右
 int dx[4] = { -1,1,0,0 };
-int dy[7] = { 0,0,-1,1 };
+int dy[4] = { 0,0,-1,1 };
 
 int bfs(vector<vector<int>>& maze, int n, int m int i,int j ) {
 	// 特殊情况：起点或终点是墙
